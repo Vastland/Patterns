@@ -14,6 +14,10 @@ public class CreateNewUserTest extends BaseTest {
     // Instance of UserData
     private UserData userData;
 
+    /**
+     * Set up method
+     * Prepare user data fore test
+     */
     @Before
     public void setUp() {
 
