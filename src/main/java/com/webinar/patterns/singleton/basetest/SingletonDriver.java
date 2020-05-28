@@ -15,7 +15,7 @@ public final class SingletonDriver {
     private WebDriver driver;
 
     /**
-     * Private constructor that prevent creation of the object outside the class
+     * Private constructor that prevents creation of the object outside the class
      */
     private SingletonDriver() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
